@@ -1,15 +1,17 @@
 # ROBOT-TEST
 Here are the few tests:
 
-Test 1
+### Test 1
+```
 PLACE 0,0 NORTH
 MOVE
 MOVE
 LEFT
 REPORT
 0,2,WEST
-
-Test 2
+```
+### Test 2
+```
 MOVE
 Please place the robot first
 LEFT
@@ -21,8 +23,9 @@ MOVE
 RIGHT
 REPORT
 2,4,NORTH
-
-Test 3
+```
+### Test 3
+```
 PLACE 5,5 NORTH
 MOVE
 Command Refused - Robot tried to get off the table. Please enter another command
@@ -31,3 +34,4 @@ MOVE
 MOVE
 REPORT
 3,5,WEST
+```
